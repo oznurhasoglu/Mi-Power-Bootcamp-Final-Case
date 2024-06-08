@@ -7,10 +7,20 @@
 Bu repository, **Mikrogrup** ve **Patika** iş birliğiyle düzenlenen **Mi-Power Women Empowerment Bootcamp** programı kapsamında yaptığım bitirme projemi içermektedir. Bir grup ödevi olan projemizde sorumlu olduğum "Veri Analizi" kısmına dair kodlarıma ve çıktılarıma ulaşabilirsiniz.
 
 ## 📄 İçindekiler
+- [Projeyi Çalıştırma Yönergeleri](#projeyi-çalıştırma-yönergeleri)
 - [Veri Seti Hakkında](#veri-seti-hakkında)
 - [Değişkenler](#değişkenler)
 - [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
 - [Sunum](#sunum)
+
+## Projeyi Çalıştırma Yönergeleri
+
+Projeyi çalıştırmak için aşağıdaki adımları takip edin:
+
+1. **Adım 1:** `veri düzenleme walmart.ipynb` dosyasını çalıştırın.
+    - Bu adımda, veriler düzenlenir ve `walmart.csv` dosyasının güncellenmiş hali elde edilir.
+2. **Adım 2:** `veri analizi walmart.ipynb` dosyasını çalıştırın.
+    - Bu adımda, veri hakkında derinlemesine analiz yapabilir ve makine öğrenimi için hazır hale gelmiş veriyi elde edebilirsiniz.
 
 ## Veri Seti Hakkında
 Walmart, Amerika Birleşik Devletleri merkezli dünya çapında şubelere sahip bir perakende mağazalar zinciridir. Çeşitli mağaza formatları ve online satış kanallarıyla geniş bir ürün yelpazesi sunar. Bu projede Walmart'ın haftalık satışlarını analiz edeceğiz.
