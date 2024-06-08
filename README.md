@@ -29,7 +29,7 @@ Projeyi yerel ortamınızda çalıştırmak için şu adımları izleyin:
 
 1. **Repository'i Klonlayın:**
     ```bash
-    git clone https://github.com/kullaniciadi/walmart-satis-tahmini.git
+    git clone https://github.com/oznurhasoglu/Mi-Power-Bootcamp-Final-Case.git
     cd walmart-satis-tahmini
     ```
 
