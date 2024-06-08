@@ -8,6 +8,7 @@ Bu repository, **Mikrogrup** ve **Patika** iş birliğiyle düzenlenen **Mi-Powe
 
 ## 📄 İçindekiler
 - [Projeyi Çalıştırma Yönergeleri](#projeyi-çalıştırma-yönergeleri)
+- [Kurulum](#kurulum)
 - [Veri Seti Hakkında](#veri-seti-hakkında)
 - [Değişkenler](#değişkenler)
 - [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
@@ -21,6 +22,32 @@ Projeyi çalıştırmak için aşağıdaki adımları takip edin:
     - Bu adımda, veriler düzenlenir ve `walmart.csv` dosyasının güncellenmiş hali elde edilir.
 2. **Adım 2:** `veri analizi walmart.ipynb` dosyasını çalıştırın.
     - Bu adımda, veri hakkında derinlemesine analiz yapabilir ve makine öğrenimi için hazır hale gelmiş veriyi elde edebilirsiniz.
+
+## Kurulum
+
+Projeyi yerel ortamınızda çalıştırmak için şu adımları izleyin:
+
+1. **Repository'i Klonlayın:**
+    ```bash
+    git clone https://github.com/kullaniciadi/walmart-satis-tahmini.git
+    cd walmart-satis-tahmini
+    ```
+
+2. **Gerekli Kütüphaneleri Yükleyin:**
+    - `requirements.txt` dosyasındaki bağımlılıkları yüklemek için:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Jupyter Notebook'u Başlatın:**
+    - Jupyter Notebook'u çalıştırmak için:
+    ```bash
+    jupyter notebook
+    ```
+
+4. **Notebook Dosyalarını Çalıştırın:**
+    - `veri düzenleme walmart.ipynb` dosyasını çalıştırarak veriyi düzenleyin.
+    - `veri analizi walmart.ipynb` dosyasını çalıştırarak veri analizi yapın ve makine öğrenimi için veriyi hazırlayın.
 
 ## Veri Seti Hakkında
 Walmart, Amerika Birleşik Devletleri merkezli dünya çapında şubelere sahip bir perakende mağazalar zinciridir. Çeşitli mağaza formatları ve online satış kanallarıyla geniş bir ürün yelpazesi sunar. Bu projede Walmart'ın haftalık satışlarını analiz edeceğiz.
@@ -50,7 +77,7 @@ Verimizdeki değişkenleri kısaca açıklayacak olursak:
   - Pandas
   - Matplotlib
   - Seaborn
-  - Sklearn
+  - Scikit-learn
   - Missingno
 
 ## Sunum
